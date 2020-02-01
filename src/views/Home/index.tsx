@@ -15,6 +15,7 @@ class Home extends React.PureComponent {
     .catch(error => {
       console.log(error)
     })
+    console.log(process.env)
   }
   render() {
     return(
